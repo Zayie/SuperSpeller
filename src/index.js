@@ -288,14 +288,14 @@ class SymSpell {
 		return Array.from(matches, (match) => match[0]);
 	}
 
-	edits(word, Editor, deleteWords) {
-		editDistance++;
+	edits(word, edits, deleteWords) {
+		edits++;
 		if (word.length > 1) {
 			for (let i = 0; i < word.length; i++) {
 				const del = word.slice(0, i) + word.slice(i + 1, word.length);
 				if (!deleteWords.has(del)) {
 					deleteWords.add(del);
-					if (editDistance < this.maxDictionaryEditDistance) this.edits(del, Editor, deleteWords);
+					if (editDistance < this.maxDictionaryEditDistance) this.edits(del, edits, deleteWords);
 				}
 			}
 		}

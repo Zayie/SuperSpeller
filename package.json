@@ -1,6 +1,6 @@
 {
   "name": "superspeller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "author": "Zayie Software, Inc. <opensource@zayie.com> (https://open.zayie.net)",
   "dependencies": {
