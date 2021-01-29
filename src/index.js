@@ -295,7 +295,7 @@ class SymSpell {
 				const del = word.slice(0, i) + word.slice(i + 1, word.length);
 				if (!deleteWords.has(del)) {
 					deleteWords.add(del);
-					if (editDistance < this.maxDictionaryEditDistance) this.edits(del, edits, deleteWords);
+					if (edits < this.maxDictionaryEditDistance) this.edits(del, edits, deleteWords);
 				}
 			}
 		}
