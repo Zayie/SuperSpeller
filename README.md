@@ -1,7 +1,5 @@
 ![](https://i.imgur.com/uVN8IP9.png)
 
-<br>
-
 # SuperSpeller
 A Javascript library from Zayie to spell correct your sentences using dozens of ngram/frequency dictionaries from Pluue, Google, Oxford and more.
 
