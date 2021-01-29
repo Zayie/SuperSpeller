@@ -1,0 +1,12 @@
+{
+  "name": "superspeller",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Zayie Software, Inc. <opensource@zayie.com> (https://open.zayie.net)",
+  "dependencies": {
+    "difflib": "0.2.x",
+    "fs": "latest",
+    "iter-tools": "^6.2.6",
+    "readline": "latest"
+  }
+}
